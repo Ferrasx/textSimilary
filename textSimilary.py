@@ -32,8 +32,11 @@ def similar(a, b):
 
 def remover_verbos_e_preposicoes(frase):
     doc = nlp(frase)
-    nova_frase = ' '.join([token.text for token in doc if token.pos_ not in ['VERB', 'ADP']])
-    return nova_frase
+    nova_frase = ' '.join([token.text for token in doc if token.pos_ not in ['VERB', 'ADP','AUX']])
+    palavras = nova_frase.split()
+    palavras_filtradas = [palavra for palavra in palavras if len(palavra) >= 2]
+
+    return ' '.join(palavras_filtradas)  # Convertendo de volta para string
 
 def encontrar_strings_similares(df1, df2, limite_similaridade=0.6):
     logging.info("Iniciando a busca por strings similares")
@@ -77,12 +80,10 @@ def salvar_resultados_em_txt(similaridades, nome_arquivo):
     with open(nome_arquivo, 'w') as arquivo:
         arquivo.write("Strings similares, suas contagens, as frases correspondentes e a similaridade dominante:\n")
         for string, info in similaridades.items():
-            string_sem_verbos_preposicoes = remover_verbos_e_preposicoes(string)
-            arquivo.write(f"{string_sem_verbos_preposicoes}, Contagem: {info['contagem']}, Similaridade Dominante: {info['similaridade_dominante']:.2f}%\n")
+            arquivo.write(f"{string}, Contagem: {info['contagem']}, Similaridade Dominante: {info['similaridade_dominante']:.2f}%\n")
             arquivo.write("Frases utilizadas como parâmetro:\n")
             for frase, similaridade in zip(info['frases_parametro'], info['similaridades_parametro']):
-                frase_sem_verbos_preposicoes = remover_verbos_e_preposicoes(frase)
-                arquivo.write(f"- {frase_sem_verbos_preposicoes}: Similaridade Dominante: {similaridade:.2f}%\n")
+                arquivo.write(f"- {frase}: Similaridade Dominante: {similaridade:.2f}%\n")
             arquivo.write("\n")
 
     logging.info("Resultados salvos com sucesso em arquivo de texto")
@@ -91,11 +92,9 @@ def salvar_resultados_em_excel(similaridades, nome_arquivo):
     logging.info(f"Salvando resultados em {nome_arquivo}")
     data = {'Frase Similar': [], 'Frase Parâmetro': [], 'Similaridade Dominante (%)': []}
     for string, info in similaridades.items():
-        string_sem_verbos_preposicoes = remover_verbos_e_preposicoes(string)
         for frase, similaridade in zip(info['frases_parametro'], info['similaridades_parametro']):
-            frase_sem_verbos_preposicoes = remover_verbos_e_preposicoes(frase)
-            data['Frase Similar'].append(string_sem_verbos_preposicoes)
-            data['Frase Parâmetro'].append(frase_sem_verbos_preposicoes)
+            data['Frase Similar'].append(string)
+            data['Frase Parâmetro'].append(frase)
             data['Similaridade Dominante (%)'].append(similaridade * 100)  # Multiplicar por 100 para obter a porcentagem
 
     df = pd.DataFrame(data)
