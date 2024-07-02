@@ -1,0 +1,101 @@
+Strings similares, suas contagens, as frases correspondentes e a similaridade dominante:
+os desvios desempenho processos, Contagem: 5, Similaridade Dominante: 0.61%
+Frases utilizadas como parâmetro:
+- desempenho produto: Similaridade Dominante: 0.61%
+- a gestão desempenho serviços: Similaridade Dominante: 0.64%
+- desempenho processos: Similaridade Dominante: 0.78%
+- desempenho: Similaridade Dominante: 0.62%
+- o desempenho clientes: Similaridade Dominante: 0.62%
+
+o catálogo serviços, Contagem: 1, Similaridade Dominante: 0.67%
+Frases utilizadas como parâmetro:
+- e os códigos serviço: Similaridade Dominante: 0.67%
+
+novas tecnologias e tendências temas unidade, Contagem: 3, Similaridade Dominante: 0.66%
+Frases utilizadas como parâmetro:
+- análise tendências capacidade: Similaridade Dominante: 0.66%
+- análise tendências capacidade: Similaridade Dominante: 0.66%
+- análise tendências capacidade: Similaridade Dominante: 0.66%
+
+, e a melhoria processos, Contagem: 2, Similaridade Dominante: 0.67%
+Frases utilizadas como parâmetro:
+- , e melhoria: Similaridade Dominante: 0.67%
+- a melhoria contínua processos: Similaridade Dominante: 0.75%
+
+, e a melhoria desenho estrutura organizacional, Contagem: 2, Similaridade Dominante: 0.69%
+Frases utilizadas como parâmetro:
+- práticas melhoria contínua cultura organizacional: Similaridade Dominante: 0.69%
+- ciclo avaliação estrutura organizacional: Similaridade Dominante: 0.71%
+
+o alinhamento e processos, Contagem: 6, Similaridade Dominante: 0.62%
+Frases utilizadas como parâmetro:
+- plano estratégico empresarial: Similaridade Dominante: 0.62%
+- plano estratégico empresarial: Similaridade Dominante: 0.62%
+- plano estratégico empresarial: Similaridade Dominante: 0.62%
+- plano estratégico empresarial: Similaridade Dominante: 0.62%
+- o monitoramento estratégia e plano ti: Similaridade Dominante: 0.68%
+- o monitoramento estratégia e plano ti: Similaridade Dominante: 0.68%
+
+e a maturidade processos, Contagem: 3, Similaridade Dominante: 0.77%
+Frases utilizadas como parâmetro:
+- capacidade e maturidade processos ti: Similaridade Dominante: 0.77%
+- a maturidade corporativa processos: Similaridade Dominante: 0.76%
+- a guarda processual: Similaridade Dominante: 0.65%
+
+e a criticidade processos, Contagem: 1, Similaridade Dominante: 0.85%
+Frases utilizadas como parâmetro:
+- o nível processos: Similaridade Dominante: 0.85%
+
+e o alinhamento processos a estratégia empresarial, Contagem: 1, Similaridade Dominante: 0.64%
+Frases utilizadas como parâmetro:
+- conexão gestão processos estrategia: Similaridade Dominante: 0.64%
+
+, e a cadeia valor e a arquitetura processos, Contagem: 1, Similaridade Dominante: 0.90%
+Frases utilizadas como parâmetro:
+- valor e arquitetura processos: Similaridade Dominante: 0.90%
+
+, e a integração processos a estrutura organizacional, Contagem: 3, Similaridade Dominante: 0.71%
+Frases utilizadas como parâmetro:
+- temas / assuntos e estrutura organizacional: Similaridade Dominante: 0.71%
+- alteração estrutura organizacional: Similaridade Dominante: 0.71%
+- estrutura organizacional: Similaridade Dominante: 0.72%
+
+e a digitalização processos corporativos, Contagem: 1, Similaridade Dominante: 0.72%
+Frases utilizadas como parâmetro:
+- melhorias processos corporativos: Similaridade Dominante: 0.72%
+
+, e a conformidade documentos organizacionais diretivos e normativos, Contagem: 1, Similaridade Dominante: 0.73%
+Frases utilizadas como parâmetro:
+- conformidade documentos organizacionais: Similaridade Dominante: 0.73%
+
+, e a atividade gestão documentação digital sistema gestão arquivística documentos , valor vigente, Contagem: 1, Similaridade Dominante: 0.72%
+Frases utilizadas como parâmetro:
+- documentação digital sistema gestão arquivística documentos: Similaridade Dominante: 0.72%
+
+, e a integração estrutura organizacional os processos corporativos, Contagem: 1, Similaridade Dominante: 0.62%
+Frases utilizadas como parâmetro:
+- , e os indicadores estratégicos e corporativos: Similaridade Dominante: 0.62%
+
+e a integração processos a gestão riscos e controles internos, Contagem: 5, Similaridade Dominante: 0.71%
+Frases utilizadas como parâmetro:
+- plano anual gestão riscos e controles internos: Similaridade Dominante: 0.71%
+- a estrutura gestão riscos e controles internos: Similaridade Dominante: 0.72%
+- política corporativa gestão riscos e controles internos: Similaridade Dominante: 0.64%
+- ações gestão riscos e controles internos: Similaridade Dominante: 0.67%
+- a metodologia gestão riscos e controles internos: Similaridade Dominante: 0.69%
+
+o processo privacidade e proteção, Contagem: 3, Similaridade Dominante: 0.71%
+Frases utilizadas como parâmetro:
+- maturidade privacidade e proteção pessoais: Similaridade Dominante: 0.71%
+- conformidade privacidade e proteção: Similaridade Dominante: 0.78%
+- impacto privacidade e proteção pessoais: Similaridade Dominante: 0.76%
+
+, e o processo gerenciamento privacidade e proteção pessoais, Contagem: 2, Similaridade Dominante: 0.72%
+Frases utilizadas como parâmetro:
+- suporte técnico interno privacidade e proteção pessoais: Similaridade Dominante: 0.72%
+- sensibilização e aculturamento privacidade e proteção pessoais: Similaridade Dominante: 0.73%
+
+e as ações gestão incidentes segurança pessoais, Contagem: 1, Similaridade Dominante: 0.80%
+Frases utilizadas como parâmetro:
+- incidentes segurança pessoais: Similaridade Dominante: 0.80%
+

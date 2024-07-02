@@ -37,7 +37,7 @@ def remover_verbos_e_preposicoes(frase):
     palavras_filtradas = [palavra for palavra in palavras if len(palavra) >= 2]
 
     return ' '.join(palavras_filtradas)  # Convertendo de volta para string
-
+ 
 def encontrar_strings_similares(df1, df2, limite_similaridade=0.6):
     logging.info("Iniciando a busca por strings similares")
     similaridades = {}
